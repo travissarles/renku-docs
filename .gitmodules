@@ -1,0 +1,6 @@
+[submodule "renku-python"]
+	path = renku-python
+	url = https://github.com/SwissDataScienceCenter/renku-python.git
+[submodule "renku"]
+	path = renku
+	url = https://github.com/SwissDataScienceCenter/renku.git
