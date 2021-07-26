@@ -37,7 +37,7 @@ customized or custom-built components.
 
 .. _fig-notebook-service-architecture:
 
-.. graphviz:: /common/_static/graphviz/notebook_service_architecture.dot
+.. graphviz:: /_static/graphviz/notebook_service_architecture.dot
 
 
 The diagram below illustrates the sequence of events that take place in order
@@ -69,4 +69,4 @@ The image building component interactions are visualized below.
 
 .. _fig-image-build-architecture:
 
-.. graphviz:: /common/_static/graphviz/gitlab_components_architecture.dot
+.. graphviz:: /_static/graphviz/gitlab_components_architecture.dot

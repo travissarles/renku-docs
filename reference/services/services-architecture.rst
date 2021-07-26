@@ -45,7 +45,7 @@ are either built or extended by us.
 
 .. _fig-component-architecture:
 
-.. graphviz:: /common/_static/graphviz/renku_architecture.dot
+.. graphviz:: /_static/graphviz/renku_architecture.dot
 
 
 .. _renku: https://github.com/SwissDataScienceCenter/renku

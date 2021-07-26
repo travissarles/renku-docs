@@ -17,7 +17,7 @@ illustrated below.
 
 .. _fig-graph-services-architecture:
 
-.. graphviz:: /common/_static/graphviz/graph_services_architecture.dot
+.. graphviz:: /_static/graphviz/graph_services_architecture.dot
 
 
 Sequence diagram of Graph Services APIs and processes.

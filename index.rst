@@ -13,13 +13,13 @@ The Renku Project Documentation
    :hidden:
    :maxdepth: 2
 
-   About Renku <common/introduction/index>
-   Getting Started <common/getting-started>
-   How-to Guides <common/how-to-guides/index>
-   Topic guides <common/topic-guides/index>
-   Reference <common/reference/index>
-   Get in touch <common/get-in-touch>
-   Release Notes <common/release-notes>
+   About Renku <introduction/index>
+   Getting Started <getting-started>
+   How-to Guides <how-to-guides/index>
+   Topic guides <topic-guides/index>
+   Reference <reference/index>
+   Get in touch <get-in-touch>
+   Release Notes <release-notes>
    License <https://www.apache.org/licenses/LICENSE-2.0>
 
 

@@ -96,7 +96,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ["_build/*", "**/.github", "**/.eggs"]
+exclude_patterns = ["_build/*", "**/.github", "**/.eggs", "README.md"]
 
 # append renku-python except for its docs
 exclude_patterns += [str(p) for p in glob.glob('renku-python/*') if p not in {'renku-python/docs'}]
@@ -142,7 +142,7 @@ html_theme_options = {
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ["common/_static"]
+html_static_path = ["_static"]
 
 # These paths are either relative to html_static_path
 # or fully qualified paths (eg. https://...)
@@ -165,9 +165,9 @@ html_sidebars = {
     ]
 }
 
-html_logo = "common/_static/icons/logo.svg"
+html_logo = "_static/icons/logo.svg"
 
-html_favicon = "common/_static/icons/favicon.ico"
+html_favicon = "_static/icons/favicon.ico"
 
 # -- Options for HTMLHelp output ------------------------------------------
 

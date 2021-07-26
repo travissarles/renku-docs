@@ -11,7 +11,7 @@ The following diagram describes components and architecture of the service:
 
 .. _fig-core-service-architecture:
 
-.. graphviz:: /common/_static/graphviz/core_service_architecture.dot
+.. graphviz:: /_static/graphviz/core_service_architecture.dot
 
 The resources are segmented by user and can not be shared between them.
 They could be files or projects on top of which the user executes subsequent operations.
