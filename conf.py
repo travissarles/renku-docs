@@ -46,7 +46,7 @@ extensions = [
     "sphinxcontrib.spelling",
     "sphinx_rtd_theme",
     "sphinx_copybutton",
-    "sphinx_panels"
+    "sphinx_panels",
 ]
 
 # Plantweb configuration
@@ -99,11 +99,14 @@ language = None
 exclude_patterns = ["_build/*", "**/.github", "**/.eggs", "README.md"]
 
 # append renku-python except for its docs
-exclude_patterns += [str(p) for p in glob.glob('renku-python/*') if p not in {'renku-python/docs'}]
+exclude_patterns += [
+    str(p) for p in glob.glob("renku-python/*") if p not in {"renku-python/docs"}
+]
 
 # append renku except for its README
-exclude_patterns += [str(p) for p in glob.glob('renku/*') if p not in {'renku/README.rst'}]
-
+exclude_patterns += [
+    str(p) for p in glob.glob("renku/*") if p not in {"renku/README.rst"}
+]
 
 print("EXLUDE PATTERNS: ", exclude_patterns)
 # The name of the Pygments (syntax highlighting) style to use.
@@ -127,16 +130,16 @@ html_theme = "renku"
 # documentation.
 #
 html_theme_options = {
-    'logo_only': True,
-    'display_version': True,
-    'prev_next_buttons_location': 'bottom',
-    'style_external_links': False,
+    "logo_only": True,
+    "display_version": True,
+    "prev_next_buttons_location": "bottom",
+    "style_external_links": False,
     # Toc options
-    'collapse_navigation': True,
-    'sticky_navigation': True,
-    'navigation_depth': 4,
-    'includehidden': True,
-    'titles_only': False
+    "collapse_navigation": True,
+    "sticky_navigation": True,
+    "navigation_depth": 4,
+    "includehidden": True,
+    "titles_only": False,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
