@@ -3,4 +3,4 @@
 Release notes
 =============
 
-.. include:: ../CHANGELOG.rst
+.. include:: renku/CHANGELOG.rst
