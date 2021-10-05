@@ -15,6 +15,10 @@ automatic workflow capture are the core pillars on which the platform is built.
 
 .. _renkulab:
 
+.. image:: renku-docs/introduction/renkulab-component-diagram.drawio.png
+  :width: 400
+  :alt: Alternative text
+
 Renkulab
 --------
 
